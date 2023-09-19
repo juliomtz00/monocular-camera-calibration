@@ -11,7 +11,7 @@ Please become familiar with a calibration process applied to a monocular camera 
 •	Visual Studio Code.
 
 ## Methodology
-An image folder, containing around 34 images, was given to us for the project, with the images taken with the help of a GoPro Hero 3+ Camera, by our course professor. This folder shows several positions of an office with a chessboard at the center, allowing for the correct centering of the used camera. It can be seen in the images that the camera is not correctly calibrated as many pictures are distorted mainly at the corners, or at the points further away from the center. Nevertheless, this distortion can be corrected by the following process
+An image folder, containing around 30-40 images from the camera that wants to be calibrated, can be generated through the get-and-save-images.py document. This folder shows several positions of an office with a chessboard at the center, allowing for the correct centering of the used camera. It can be seen in the images that the camera is not correctly calibrated as many pictures are distorted mainly at the corners, or at the points further away from the center. Nevertheless, this distortion can be corrected by the following process
 
 The camera calibration software, developed in Python, estimates the intrinsic camera parameters such as the focal length, principal point (center of the image), and the distortion lens (radial and tangential distortions). After obtaining these parameters, the image distortion can be compensated, which can be seen in the following images.
 
